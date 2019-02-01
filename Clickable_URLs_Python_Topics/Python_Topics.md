@@ -1,3 +1,6 @@
+[Learn Python (Bottom of the page - there many links for excellent
+code-examples)](https://github.com/jerry-git/learn-python3)
+
 [What is the difference between Pandas series and Python
 lists?](https://discuss.analyticsvidhya.com/t/what-is-the-difference-between-pandas-series-and-python-lists/27373)
 
@@ -13,8 +16,8 @@ Python](http://www.grapenthin.org/teaching/geop501/lectures/lecture_06_data_stru
 
 [Practical Business Python](http://pbpython.com/pandas-list-dict.html)
 
-[Creating Pandas DataFrames from Lists and Dictionaries](http://pbpython.com/pandas-list-dict.html)
-===================================================================================================
+Creating Pandas DataFrames from Lists and Dictionaries
+======================================================
 
 [Learn Python - Excellent Site](https://thispointer.com/learn-python/)
 
