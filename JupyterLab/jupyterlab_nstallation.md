@@ -1,4 +1,4 @@
-<https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html>
+https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
 (screenshot below)
 
 ![](media/bb6aa9a92f2af8218ffd5b72aa0a0bf0.png)
@@ -38,8 +38,8 @@ c.NotebookApp.contents_manager_class="jupytext.TextFileContentsManager"
 \# And restart your notebook server  
 jupyter notebook
 
-[Jupyter notebooks as Markdown documents, Julia, Python or R scripts](https://hub.packtpub.com/introducing-jupytext-jupyter-notebooks-as-markdown-documents-julia-python-or-r-scripts/)
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Jupyter notebooks as Markdown documents, Julia, Python or R scripts
+-------------------------------------------------------------------
 
 Paired Notebooks
 ----------------
