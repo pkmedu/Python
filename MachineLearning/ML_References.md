@@ -1,1 +1,1 @@
-MACHINE LEARNING BASICS - by data iku
+Machine Learning Basics (Newsletters to subscribe)
