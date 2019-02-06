@@ -1,0 +1,25 @@
+digraph {
+	rankdir=LR
+	HW
+	HW -> Root
+	SW
+	SW -> Root
+	Electric
+	Electric -> HW
+	ink
+	ink -> HW
+	windows
+	windows -> SW
+	Drivers
+	Drivers -> SW
+	Yellow
+	Yellow -> ink
+	blue
+	blue -> ink
+	pink
+	pink -> ink
+	FE
+	FE -> Drivers
+	BE
+	BE -> Drivers
+}
