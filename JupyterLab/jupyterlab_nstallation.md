@@ -50,3 +50,29 @@ notebook metadata with Edit/Edit Notebook Metadata in Jupyter’s menu.
 
 On saving the notebook, both the Jupyter notebook and
 the [python](https://subscription.packtpub.com/tech/python) scripts are updated.
+
+[Working efficiently with JupyterLab Notebooks - By Florian
+Wilhelm](https://florianwilhelm.info/2018/11/working_efficiently_with_jupyter_lab/)
+(Excellent Web Post)
+
+[Navigator Error no ipython console is currently available to run temp.py in
+spyder 3.2.7](https://github.com/ContinuumIO/anaconda-issues/issues/8726)
+
+Open a terminal (on Linux or Mac) or the Anaconda Command Prompt (on windows)
+and type:
+
+\$ conda update conda
+
+\$ conda update anaconda-navigator
+
+\$ conda update navigator-updater
+
+NOTE: If you see this error when updating anaconda:
+
+PackageNotInstalledError: Package is not installed in prefix.  
+      package name: anaconda
+
+   
+Install Anaconda to update the distribution to Python 3.6:
+
+conda install anaconda
