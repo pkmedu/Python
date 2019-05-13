@@ -1,4 +1,7 @@
-[Learn Python (Bottom of the page - there many links for excellent
+[Learn about pip on
+Windows](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html#checking-for-pip-on-windows)
+
+[Learn Python (Bottom of the page – there are many links for excellent
 code-examples)](https://github.com/jerry-git/learn-python3)
 
 [What is the difference between Pandas series and Python
