@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Feb 24 08:46:47 2019
+Created on Sat May 25 19:38:37 2019
 
 @author: PMuhuri
 """
 
-import os
-print(os.environ['HOME'])
+from pathlib import Path
+dir =  Path('C:/Users/pmuhuri/AppData/Local/Continuum/anaconda3/Lib/site-packages/saspy/java')
+files = dir.glob('*.*')
+for i in files:
+    print(i)
