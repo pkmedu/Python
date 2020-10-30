@@ -1,0 +1,4 @@
+
+import pandas as pd
+class_df = pd.read_csv('C:\SASHELP_Raw1\CLASS.dat') 
+class_df.to_hdf('C:\SASHELP_DF\class_df.h5', key='df', mode='w')
