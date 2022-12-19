@@ -4,6 +4,7 @@
 # In[1]:
 
 # Ex1_Pandas_csv.py
+install Pandas
 import os
 os.getcwd()
 import pandas as pd
