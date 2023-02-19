@@ -132,21 +132,39 @@ content = file.readlines()
 for item in content[:8]:     print(item)
 ```
 
+    A total of 1,154  MEPS-HC data file format-specific URLs listed on the MEPS website
+    
+    Below is a small portion of the bulk output saved in a file.
+    (Sample MEPS data file-URL along its five data format-specific URLs - out of 1,154 URLs)
+    
+    URL for MEPS HC-226: MEPS Panel 23 Three-Year Longitudinal Data File
+    
+    https://meps.ahrq.gov/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-226
+    
+    URLs for the data file in multiple formats, if available
+    
+    https://meps.ahrq.gov/data_files/pufs/h226/h226dat.zip
+    
+    https://meps.ahrq.gov/data_files/pufs/h226/h226ssp.zip
+    
+    https://meps.ahrq.gov/data_files/pufs/h226/h226v9.zip
+    
+    https://meps.ahrq.gov/data_files/pufs/h226/h226dta.zip
+    
+    https://meps.ahrq.gov/data_files/pufs/h226/h226xlsx.zip
+    
+    
+
 
 ```python
 !jupyter nbconvert --to markdown Final_Solution_Feb18_2023.ipynb
 ```
 
-
-```python
-!jupyter nbconvert --to python Final_Solution_Feb18_2023.ipynb
-```
-
-    [NbConvertApp] Converting notebook Final_Solution_Feb18_2023.ipynb to python
-    [NbConvertApp] Writing 4325 bytes to Final_Solution_Feb18_2023.py
+    [NbConvertApp] Converting notebook Final_Solution_Feb18_2023.ipynb to markdown
+    [NbConvertApp] Writing 4266 bytes to Final_Solution_Feb18_2023.md
     
 
 
 ```python
-
+!jupyter nbconvert --to python Final_Solution_Feb18_2023.ipynb
 ```
