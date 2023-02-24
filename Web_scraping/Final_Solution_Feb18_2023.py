@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[37]:
+# In[2]:
 
 
 # Import required Python libraries
@@ -40,7 +40,7 @@ def main(base_url):
             
             fp = open(r'C:\Data\MEPS_fn.txt', 'w')
             filtered = []
-            unwanteds = ['-IC', 'replaced', 'CD-ROM']
+            unwanteds = ['-IC', 'CD-ROM', 'replaced', 'Population Characteristics']
             for op in ops:
                 data = extractData(op)
                 if data.startswith(('MEPS HC', 'HC')) and not any(item in data for item in unwanteds):
@@ -48,10 +48,10 @@ def main(base_url):
                     filtered.append(data)
             fp.close()   
             print(len(filtered), 'public use file names and description from the MEPS website')    
-            print ()
+            print("===========")
             # open, read , and print 5 lines from the file
-            print ('Five file names/description below (out of 402) from the .txt file created from the HTML data')
-            print ()
+            print ('Five file names/description below from the .txt file created from the HTML data')
+            print("===========")
             file = open(r'C:\Data\MEPS_fn.txt')
             content = file.readlines()
             for item in content[:5]:   print(item)
@@ -60,7 +60,7 @@ main('https://meps.ahrq.gov/data_stats/download_data_files.jsp')
     
 
 
-# In[38]:
+# In[3]:
 
 
 # Step 2: Constrct the the data file URL from the .txt file created in the previous step
@@ -74,14 +74,14 @@ df1['url1'] = "https://meps.ahrq.gov/data_stats/download_data_files_detail.jsp?c
 df1 = df1.drop(columns=['fn'])
 
 print('There are', len(df1), 'MEPS public-use filenames listed in the MEPS Data File Web Page.')
-print()
+print("===========")
 list = df1.values.tolist()
 
-print('Five sample data file URLs (out of 402) constrcuted from the HTML data')
+print('Five data file URLs (out of over one thousand) constrcuted from the HTML data')
 for item in list[:4]:   print(item)
 
 
-# In[ ]:
+# In[4]:
 
 
 #Step 3: Create data file format-specific URLs from the websites' HTML data for each of the data  files
@@ -92,10 +92,10 @@ with open(r'C:\Data\urls.markdown', 'w') as f:
         url1_str = df1['url1'][item]
         response = requests.get(url1_str)
         soup = BeautifulSoup(response.text, "html.parser")
-        li = soup.find(class_ = "OrangeBox").text
-        print('URL for', li, file = f)  
+        li = soup.find (class_ = "OrangeBox").text
+        print('URL below for', li, file = f)  
         print(url1_str, file = f)
-        print('URLs for the data file in multiple formats, if available',file = f)
+        print('URL(s) below for the above data file in one or  more formats (.dat, .ssp, sasv9, dta, .xlsx)',file = f)
         for link in soup.find_all('a'):
             if link.text.endswith('ZIP'):
                 url2_str = 'https://meps.ahrq.gov' + link.get('href').strip('..')
@@ -103,10 +103,9 @@ with open(r'C:\Data\urls.markdown', 'w') as f:
                 url2_str_list.append(url2_str)
                                 
 print('A total of', f"{len(url2_str_list):,d}", ' MEPS-HC data file format-specific URLs listed on the MEPS website') 
+print("===========")
+print ('Example output: Sample results for one MEPS data file out of hundreds - read from a Python-generated output file')
 print()
-print ('Below is a small portion of the bulk output saved in a file.')
-print("(Sample MEPS data file-URL along its five data format-specific URLs - out of 1,154 URLs)")
-print()   
 file = open(r'C:\Data\urls.markdown')
 content = file.readlines()
 for item in content[:8]:     print(item)
@@ -118,14 +117,8 @@ for item in content[:8]:     print(item)
 get_ipython().system('jupyter nbconvert --to markdown Final_Solution_Feb18_2023.ipynb')
 
 
-# In[36]:
-
-
-get_ipython().system('jupyter nbconvert --to python Final_Solution_Feb18_2023.ipynb')
-
-
 # In[ ]:
 
 
-
+get_ipython().system('jupyter nbconvert --to python Final_Solution_Feb18_2023.ipynb')
 
