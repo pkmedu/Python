@@ -1,0 +1,10 @@
+*.docx
+*.zip
+*.doc
+*.tmp
+~WRL1607.tmp
+~thon Resources.docx
+
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
