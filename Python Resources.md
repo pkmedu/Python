@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=8DvywoWv6fI
  
 Python programming materials & slides by Dr. Charles R. Severance
 https://www.py4e.com/lessons
+
 https://github.com/ceteongvanness/Python-for-Everybody/tree/master/Slide/PDF
  
 Python for Everybody in Jupyter Notebook format (the same materials as in the links above)
@@ -28,7 +29,7 @@ https://github.com/jmelahman/python-for-everybody-solutions
  Interactive notebooks and files for the Python for Everybody course
 https://github.com/CodingForEverybody/python-for-everybody/tree/master
 
- Current repository contains all assignments, notes, quizzes and course materials from the "Python for Everybody Specialization" provided by Coursera and University of Michigan.
+Current repository contains all assignments, notes, quizzes and course materials from the "Python for Everybody Specialization" provided by Coursera and University of Michigan.
 https://github.com/sersavn/coursera-python-for-everybody-specialization
 
  
@@ -52,7 +53,7 @@ https://docs.python.org/3/tutorial/interpreter.html#invoking-the-interpreter
 
 Python Projects  for Beginners: A Ten-Week Bootcamp Approach to Python Programming
 https://github.com/shintwelv/10_weeks_python_bootcamp
-Pierian-Data: Complete-Python-3-Bootcamp
+
 Whetting Your Appetite
 https://docs.python.org/3/tutorial/appetite.html
  
@@ -131,6 +132,7 @@ https://www.dataquest.io/blog/a-complete-guide-to-python-virtual-environments/#w
 
 The Basics of Python For Loops: A Tutorial
 https://www.dataquest.io/blog/python-for-loop-tutorial/
+
 https://kaust-vislab.github.io/python-novice-gapminder/12-for-loops/
  
 Two Simple Ways to Loop More Effectively in Python: Use enumerate and zip
@@ -138,8 +140,11 @@ https://towardsdatascience.com/two-simple-ways-to-loop-more-effectively-in-pytho
  
  Python Dictionary Comprehension Tutorial (with 39 Code Examples)
 https://www.dataquest.io/blog/python-dictionary-comprehension-tutorial/
+
 https://www.learndatasci.com/solutions/python-list-comprehension/
+
 https://www.dataquest.io/blog/filtering-pandas-dataframes/
+
 https://www.dataquest.io/path/data-analyst/
 
 Common Python Regex Patterns
@@ -147,10 +152,13 @@ https://www.dataquest.io/blog/regular-expressions-data-scientists/
  
 Python Regex Lookahead
 https://www.pythontutorial.net/python-regex/python-regex-lookahead/
+
 Mastering Lookahead and Lookbehind
 https://www.rexegg.com/regex-lookarounds.html
+
 Python Regular Expression Tutorial
 https://tschwarz.mscs.mu.edu/Classes/PythonB/Modules/RegularExpressions/article.html
+
 Regular Expression HOWTO¶
 https://docs.python.org/3/howto/regex.html
 
@@ -165,6 +173,7 @@ https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-p
 
 Learn Python Programming (Course advertisement with good pointers)
 https://www.edureka.co/blog/python-programming-language#PythonFundamentals
+
 https://www.edureka.co/blog/python-tutorial/
 
 Creating a Project Repo on GitHub
