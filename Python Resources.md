@@ -18,6 +18,19 @@ https://github.com/ceteongvanness/Python-for-Everybody/tree/master/Slide/PDF
  
 Python for Everybody in Jupyter Notebook format (the same materials as in the links above)
 https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_Languages/Python_for_Everybody_(Severance)
+
+Python for Everybody Specialization - University of Michigan - Coursera
+https://github.com/AmaniAbbas/py4e/tree/master
+
+Solutions to Python for Everybody: Exploring Data using Python 3 by Charles Severance
+https://github.com/jmelahman/python-for-everybody-solutions
+
+ Interactive notebooks and files for the Python for Everybody course
+https://github.com/CodingForEverybody/python-for-everybody/tree/master
+
+ Current repository contains all assignments, notes, quizzes and course materials from the "Python for Everybody Specialization" provided by Coursera and University of Michigan.
+https://github.com/sersavn/coursera-python-for-everybody-specialization
+
  
 Python Tutorials
 https://zetcode.com/lang/python/
@@ -140,6 +153,9 @@ Python Regular Expression Tutorial
 https://tschwarz.mscs.mu.edu/Classes/PythonB/Modules/RegularExpressions/article.html
 Regular Expression HOWTO¶
 https://docs.python.org/3/howto/regex.html
+
+Python for Everybody – Regular Expression
+https://github.com/AmaniAbbas/py4e/blob/master/Course-3/Quizzes/quiz_chapter11.md
  
 Short-cuts in Jupyter Notebook
 https://medium.com/@ashwin3005/shortcuts-in-jupyter-notebook-fc0543e72512
@@ -150,5 +166,9 @@ https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-p
 Learn Python Programming (Course advertisement with good pointers)
 https://www.edureka.co/blog/python-programming-language#PythonFundamentals
 https://www.edureka.co/blog/python-tutorial/
+
+Creating a Project Repo on GitHub
+https://docs.python-guide.org/shipping/publishing/
+
 
 
