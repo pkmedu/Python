@@ -11,15 +11,15 @@ Printed “Python for Everybody” book on Amazon India (low-cost shipping withi
  
 YouTube Videos on Python by Dr. Charles R. Severance 
 https://www.youtube.com/watch?v=8DvywoWv6fI
- 
+
+Python code by Dr. Charles R. Severance
 https://github.com/csev/py4e/tree/master/code
-
 https://github.com/csev/py4e/tree/master/code3
-
 
 Python programming materials & slides by Dr. Charles R. Severance
 https://www.py4e.com/lessons
 
+Python for Everybody (Slides) by Dr. Charles R. Severance
 https://github.com/ceteongvanness/Python-for-Everybody/tree/master/Slide/PDF
  
 Python for Everybody in Jupyter Notebook format (the same materials as in the links above)
@@ -31,13 +31,12 @@ https://github.com/AmaniAbbas/py4e/tree/master
 Solutions to Python for Everybody: Exploring Data using Python 3 by Charles Severance
 https://github.com/jmelahman/python-for-everybody-solutions
 
- Interactive notebooks and files for the Python for Everybody course
+Interactive notebooks and files for the Python for Everybody course
 https://github.com/CodingForEverybody/python-for-everybody/tree/master
 
 Current repository contains all assignments, notes, quizzes and course materials from the "Python for Everybody Specialization" provided by Coursera and University of Michigan.
 https://github.com/sersavn/coursera-python-for-everybody-specialization
 
- 
 Python Tutorials
 https://zetcode.com/lang/python/
 
@@ -85,6 +84,9 @@ https://www.pythonmorsels.com/iterable/
  
 List Comprehensions are more specialized than for loops
 https://www.pythonmorsels.com/what-are-list-comprehensions/
+
+Introduction to Python Data Structures
+https://www.kdnuggets.com/5-steps-getting-started-python-data-structures
   
 10 Python Tips
 https://www.kdnuggets.com/2020/01/10-python-tips-tricks-learn-today.html#:~:text=List%20comprehensions%20are%20used%20for,to%20iterate%20over%20each%20element.
@@ -152,6 +154,9 @@ https://www.kdnuggets.com/2023/03/7-mustknow-python-tips-coding-interviews.html
 
 •	Useful Math Functions to Know
  
+Getting Started with Scikit-learn in 5 Steps
+https://www.kdnuggets.com/5-steps-getting-started-scikit-learn
+
 ChatGPT as a Python Programming Assistant
 https://www.kdnuggets.com/2023/01/chatgpt-python-programming-assistant.html
  
@@ -206,6 +211,9 @@ https://www.edureka.co/blog/python-tutorial/
 
 Creating a Project Repo on GitHub
 https://docs.python-guide.org/shipping/publishing/
+
+Getting Started with Google Cloud Platform in 5 Steps
+https://www.kdnuggets.com/5-steps-google-cloud-platform
 
 
 
