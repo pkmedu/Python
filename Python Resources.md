@@ -103,6 +103,7 @@ http://tdc-www.harvard.edu/Python.pdfhttps://www.kdnuggets.com/mastering-the-art
  
 Writing Parquet Files in Python with Pandas, PySpark, and Koalas
 
+
 https://mungingdata.com/python/writing-parquet-pandas-pyspark-koalas/
  
 An iterable is anything you can iterate over (an iter-able)
