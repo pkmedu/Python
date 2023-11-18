@@ -1,6 +1,6 @@
 
 https://www.kdnuggets.com/10-essential-pandas-functions-every-data-scientist-should-know
-lists the follwing Python functions.
+lists the following Pandas functions.
 
 1. Data Viewing
  
