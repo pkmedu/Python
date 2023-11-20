@@ -6,9 +6,9 @@ an article by Aryan Garg in KDnuggets Newsletter on November 10, 2023
 
 1. Data Viewing
  
-	1.	df.head()displays the first five rows of the sample data.
-	2.	df.tail()displays the last five rows of the sample data.
-	3.	df.sample(n)displays the random n number of rows in the sample data.
+	1.	df.head() displays the first five rows of the sample data.
+	2.	df.tail() displays the last five rows of the sample data.
+	3.	df.sample(n) displays the random n number of rows in the sample data.
 	4.	df.shape displays the sample data's rows and columns (dimensions).
 
 2. Statistics
