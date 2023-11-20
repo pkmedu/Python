@@ -1,8 +1,8 @@
 
-https://www.kdnuggets.com/10-essential-pandas-functions-every-data-scientist-should-know
-lists the following Pandas functions 
-Author: Aryan Garg, KDnuggets on November 10, 2023 in Data Science
-The following code and text are obtained from the above link.
+The following Pandas functions (code and text) are selectively obtained from 
+an article by Aryan Garg in KDnuggets Newsletter on November 10, 2023 
+(https://www.kdnuggets.com/10-essential-pandas-functions-every-data-scientist-should-know).
+
 
 1. Data Viewing
  
