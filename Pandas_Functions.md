@@ -1,6 +1,8 @@
 
 https://www.kdnuggets.com/10-essential-pandas-functions-every-data-scientist-should-know
-lists the following Pandas functions.
+lists the following Pandas functions 
+Author: Aryan Garg, KDnuggets on November 10, 2023 in Data Science
+The following code and text are obtained from the above link.
 
 1. Data Viewing
  
@@ -44,3 +46,7 @@ lists the following Pandas functions.
 	8. Time Series Analysis: In mathematics, time series analysis means analyzing the data collected over a specific time interval, and pandas have functions to perform this type of analysis.
 	9. Cross Tabulation: We can perform cross-tabulation between two columns of a table. It is generally a frequency table that shows the frequency of occurrences of various categories. It can help you to understand the distribution of categories across different regions.
 	10. Handling Outliers: Outliers in data means that a particular point goes far beyond the average range.
+
+See https://dataanalysispython.readthedocs.io/en/latest/ for more about Data Analysis in Python.
+
+
