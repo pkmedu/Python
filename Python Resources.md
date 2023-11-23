@@ -5,9 +5,7 @@ Python Resources (listed in no particular order)  – updated 11/5/2023
 
 [Free book - Python for Everybody by Dr. Charles R. Severance](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf)
  
-Printed “Python for Everybody” book on Amazon India (low-cost shipping within India thanks to Shroff Publishing). Also available on Amazon USA – used books (below $10)
- 
-[YouTube Videos on Python by Dr. Charles R. Severance](https://www.youtube.com/watch?v=8DvywoWv6fI]
+[YouTube Videos on Python by Dr. Charles R. Severance](https://www.youtube.com/watch?v=8DvywoWv6fI)
 
 [Python code by Dr. Charles R. Severance](https://github.com/csev/py4e/tree/master/code)
 
@@ -33,7 +31,7 @@ https://github.com/sersavn/coursera-python-for-everybody-specialization)
 
 [Zetcode Python Tutorials](https://zetcode.com/lang/python/)
 
-[Python 3 Notes](https://sites.pitt.edu/~naraehan/python3/]
+[Python 3 Notes](https://sites.pitt.edu/~naraehan/python3/)
  
 [Python Tutorials](https://pythonexamples.org/)
  
@@ -53,14 +51,14 @@ https://github.com/sersavn/coursera-python-for-everybody-specialization)
  
 [Web-based Python Interpreter](https://www.pythonmorsels.com/)
 
-[CS 1110: Introduction to Computing Using Python Spring 2016}(https://www.cs.cornell.edu/courses/cs1110/2016sp/lectures/index.php.html)
+[CS 1110: Introduction to Computing Using Python Spring 2016](https://www.cs.cornell.edu/courses/cs1110/2016sp/lectures/index.php.html)
  
 [Basic Python Semantics: Variables and Objects](https://jakevdp.github.io/WhirlwindTourOfPython/03-semantics-variables.html)
  
 [CS 1110: Introduction to Computing Using Python Spring 2016 (Lecture notes, slides, and example code)](https://www.cs.cornell.edu/courses/cs1110/2016sp/lectures/index.php.html) 
 
 [Mastering the Art of Data Cleaning in Python](
-http://tdc-www.harvard.edu/Python.pdfhttps://www.kdnuggets.com/mastering-the-art-of-data-cleaning-in-python]
+http://tdc-www.harvard.edu/Python.pdfhttps://www.kdnuggets.com/mastering-the-art-of-data-cleaning-in-python)
  
 [Writing Parquet Files in Python with Pandas, PySpark, and Koalas](https://mungingdata.com/python/writing-parquet-pandas-pyspark-koalas/)
  
