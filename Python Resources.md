@@ -68,6 +68,10 @@ https://www.w3resource.com/python/python-tutorial.php
 Python Programming 
 
 https://thispointer.com/python-programming/
+
+The Ultimate Python Cheat Sheet
+
+https://blog.finxter.com/wp-content/uploads/2020/07/Finxter_WorldsMostDensePythonCheatSheet.pdf
  
 Using the Python Interpreter
 
@@ -103,14 +107,17 @@ http://tdc-www.harvard.edu/Python.pdfhttps://www.kdnuggets.com/mastering-the-art
  
 Writing Parquet Files in Python with Pandas, PySpark, and Koalas
 
-
 https://mungingdata.com/python/writing-parquet-pandas-pyspark-koalas/
  
 An iterable is anything you can iterate over (an iter-able)
 
 https://www.pythonmorsels.com/iterable/
  
-List Comprehensions are more specialized than for loops
+How To Write Efficient Python Code: A Tutorial for Beginners
+
+https://www.kdnuggets.com/how-to-write-efficient-python-code-a-tutorial-for-beginners
+
+List comprehensions in Python: List Comprehensions are more specialized than for loops
 
 https://www.pythonmorsels.com/what-are-list-comprehensions/
 
@@ -219,6 +226,11 @@ https://www.learndatasci.com/solutions/python-list-comprehension/
 https://www.dataquest.io/blog/filtering-pandas-dataframes/
 
 https://www.dataquest.io/path/data-analyst/
+
+[(Tools) Nivedita (NS). Reading and Writing Files with Ease] (https://towardsdev.com/mastering-file-handling-in-python-reading-and-writing-files-with-ease-f9eb9f6a568c)
+
+[(Tools) Adeleke, Kafilat. Mastering File and Directory Management in Python.] (https://python.plainenglish.io/mastering-file-and-directory-management-in-python-52f6e1e3ad8b#:~:text=Mastering%20File%20and%20Directory%20Management%20in%20Python%201,6%20Code%20Snippets%20for%20Common%20File%20Operations%20)
+
 
 Common Python Regex Patterns
 https://www.dataquest.io/blog/regular-expressions-data-scientists/
