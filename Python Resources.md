@@ -1,5 +1,5 @@
 
-Python Resources (listed in no particular order)  – updated 11/5/2023
+Python Resources (listed in no particular order)  – updated 11/23/2023
 
 [Anaconda Install for Windows (Python, Jupyter Lab, Spyder IDE, etc.) in 14 steps](https://docs.anaconda.com/free/anaconda/install/windows/)
 
@@ -33,9 +33,11 @@ https://github.com/sersavn/coursera-python-for-everybody-specialization)
 
 [Python 3 Notes](https://sites.pitt.edu/~naraehan/python3/)
  
-[Python Tutorials](https://pythonexamples.org/)
+[pythonexamples.org Tutorials](https://pythonexamples.org/)
  
 [w3source Python Tutorial](https://www.w3resource.com/python/python-tutorial.php)
+
+[docs.python.org Tutorial](https://docs.python.org/3/tutorial/index.html)
  
 [thispointer Python Programming](https://thispointer.com/python-programming/)
 
@@ -47,8 +49,6 @@ https://github.com/sersavn/coursera-python-for-everybody-specialization)
 
 [Python Projects  for Beginners: A Ten-Week Bootcamp Approach to Python Programming](https://github.com/shintwelv/10_weeks_python_bootcamp)
 
-[Whetting Your Appetite](https://docs.python.org/3/tutorial/appetite.html)
- 
 [Web-based Python Interpreter](https://www.pythonmorsels.com/)
 
 [CS 1110: Introduction to Computing Using Python Spring 2016](https://www.cs.cornell.edu/courses/cs1110/2016sp/lectures/index.php.html)
