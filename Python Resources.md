@@ -1,7 +1,7 @@
 
 # Python Resources
 
-## Python Installation and Python Installers
+## Python Installation and Installers
 
 [Anaconda Install for Windows (Python, Jupyter Lab, Spyder IDE, etc.) in 14 steps](https://docs.anaconda.com/free/anaconda/install/windows/)
 
