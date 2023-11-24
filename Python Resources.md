@@ -60,10 +60,8 @@ https://www.kdnuggets.com/how-to-write-efficient-python-code-a-tutorial-for-begi
 
 [Learn Python Programming (Course advertisement with good pointers)](https://www.edureka.co/blog/python-programming-language#PythonFundamentals)
 
-## Bootcamp in Python 
-[Python Projects  for Beginners: A Ten-Week Bootcamp Approach to Python Programming](https://github.com/shintwelv/10_weeks_python_bootcamp)
-
 ## Selected Python Tools and Tips
+
 [An iterable is anything you can iterate over (an iter-able)](https://www.pythonmorsels.com/iterable/)
  
 [List comprehensions in Python: List Comprehensions are more specialized than for loops](https://www.pythonmorsels.com/what-are-list-comprehensions/)
@@ -161,6 +159,9 @@ http://tdc-www.harvard.edu/Python.pdfhttps://www.kdnuggets.com/mastering-the-art
  
 ## Cheat Sheet
 [The Ultimate Python Cheat Sheet](https://blog.finxter.com/wp-content/uploads/2020/07/Finxter_WorldsMostDensePythonCheatSheet.pdf)
+
+## Bootcamp Approach to Python Programming
+[Python Projects  for Beginners: A Ten-Week Bootcamp Approach to Python Programming](https://github.com/shintwelv/10_weeks_python_bootcamp)
 
 ## Other Tools
 
