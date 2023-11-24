@@ -1,5 +1,5 @@
 
-# Python Resources (Updated 11/23/2023)
+# Python Resources
 
 ## Python Installation and Python Installers
 
@@ -135,9 +135,11 @@ http://tdc-www.harvard.edu/Python.pdfhttps://www.kdnuggets.com/mastering-the-art
  
 [Writing Parquet Files in Python with Pandas, PySpark, and Koalas](https://mungingdata.com/python/writing-parquet-pandas-pyspark-koalas/)
 
-## Reading and Writing Files and Directory Management in Python
+## Reading and Writing Files in Python
 
 [Nivedita (NS). Reading and Writing Files with Ease](https://towardsdev.com/mastering-file-handling-in-python-reading-and-writing-files-with-ease-f9eb9f6a568c)
+
+## Directory Management in Python
 
 [Adeleke, Kafilat. Mastering File and Directory Management in Python.](https://python.plainenglish.io/mastering-file-and-directory-management-in-python-52f6e1e3ad8b#:~:text=Mastering%20File%20and%20Directory%20Management%20in%20Python%201,6%20Code%20Snippets%20for%20Common%20File%20Operations%20)
 
