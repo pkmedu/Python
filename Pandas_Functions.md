@@ -1,3 +1,6 @@
+# Working with pandas (Python Data Analysis Library)
+
+## Pandas Functions
 
 The following Pandas functions (code and text) are selectively obtained from 
 an article by Aryan Garg in KDnuggets Newsletter on November 10, 2023 
@@ -46,7 +49,8 @@ an article by Aryan Garg in KDnuggets Newsletter on November 10, 2023
 	8. Time Series Analysis: In mathematics, time series analysis means analyzing the data collected over a specific time interval, and pandas have functions to perform this type of analysis.
 	9. Cross Tabulation: We can perform cross-tabulation between two columns of a table. It is generally a frequency table that shows the frequency of occurrences of various categories. It can help you to understand the distribution of categories across different regions.
 	10. Handling Outliers: Outliers in data means that a particular point goes far beyond the average range.
-
-See https://dataanalysispython.readthedocs.io/en/latest/ for more about Data Analysis in Python.
-
+	
+	## Data Analysis Using Pandas/Python
+	
+	[Data Analysis in Python](https://dataanalysispython.readthedocs.io/en/latest/)
 
