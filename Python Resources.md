@@ -124,53 +124,12 @@ https://www.dataquest.io/blog/python-dictionary-comprehension-tutorial/)
 
 [List Comprehension in Python](https://www.learndatasci.com/solutions/python-list-comprehension/)
 
-[Filtering Dataframes](https://www.dataquest.io/blog/filtering-pandas-dataframes/)
-
 [Basic Python Semantics: Variables and Objects](https://jakevdp.github.io/WhirlwindTourOfPython/03-semantics-variables.html)
+
+## Cheat Sheet
+[The Ultimate Python Cheat Sheet](https://blog.finxter.com/wp-content/uploads/2020/07/Finxter_WorldsMostDensePythonCheatSheet.pdf)
  
 [Mastering the Art of Data Cleaning in Python](
 http://tdc-www.harvard.edu/Python.pdfhttps://www.kdnuggets.com/mastering-the-art-of-data-cleaning-in-python)
  
-[Writing Parquet Files in Python with Pandas, PySpark, and Koalas](https://mungingdata.com/python/writing-parquet-pandas-pyspark-koalas/)
 
-## Reading and Writing Files in Python
-
-[Nivedita (NS). Reading and Writing Files with Ease](https://towardsdev.com/mastering-file-handling-in-python-reading-and-writing-files-with-ease-f9eb9f6a568c)
-
-## Directory Management in Python
-
-[Adeleke, Kafilat. Mastering File and Directory Management in Python.](https://python.plainenglish.io/mastering-file-and-directory-management-in-python-52f6e1e3ad8b#:~:text=Mastering%20File%20and%20Directory%20Management%20in%20Python%201,6%20Code%20Snippets%20for%20Common%20File%20Operations%20)
-
-[Python 3 Quick Tip: The easy way to deal with file paths on Windows, Mac and Linux](https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f)
-
-## Regular Expression in Python
-
-[Common Python Regex Patterns](https://www.dataquest.io/blog/regular-expressions-data-scientists/)
- 
-[Python Regex Lookahead](https://www.pythontutorial.net/python-regex/python-regex-lookahead/)
-
-[Mastering Lookahead and Lookbehind](https://www.rexegg.com/regex-lookarounds.html)
-
-[Python Regular Expression Tutorial](https://tschwarz.mscs.mu.edu/Classes/PythonB/Modules/RegularExpressions/article.html)
-
-[Regular Expression HOWTO](https://docs.python.org/3/howto/regex.html)
-
-[Python for Everybody – Regular Expression](https://github.com/AmaniAbbas/py4e/blob/master/Course-3/Quizzes/quiz_chapter11.md)
- 
-## Cheat Sheet
-[The Ultimate Python Cheat Sheet](https://blog.finxter.com/wp-content/uploads/2020/07/Finxter_WorldsMostDensePythonCheatSheet.pdf)
-
-## Bootcamp Approach to Python Programming
-[Python Projects  for Beginners: A Ten-Week Bootcamp Approach to Python Programming](https://github.com/shintwelv/10_weeks_python_bootcamp)
-
-## Other Tools
-
-[Short-cuts in Jupyter Notebook](https://medium.com/@ashwin3005/shortcuts-in-jupyter-notebook-fc0543e72512)
-
-[Creating a Project Repo on GitHub](https://docs.python-guide.org/shipping/publishing/)
-
-[Getting Started with Google Cloud Platform in 5 Steps](https://www.kdnuggets.com/5-steps-google-cloud-platform)
-
-[Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github)
-
-[Supported color models for GitHub-flavored Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)

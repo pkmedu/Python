@@ -1,5 +1,9 @@
 # Working with pandas (Python Data Analysis Library)
 
+[Writing Parquet Files in Python with Pandas, PySpark, and Koalas](https://mungingdata.com/python/writing-parquet-pandas-pyspark-koalas/)
+
+[Filtering Dataframes](https://www.dataquest.io/blog/filtering-pandas-dataframes/)
+
 ## Pandas Functions
 
 The following Pandas functions (code and text) are selectively obtained from 
