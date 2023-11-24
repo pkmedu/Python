@@ -1,7 +1,7 @@
 
-# Python Resources (listed in no particular order)  – updated 11/23/2023
+# Python Resources (Updated 11/23/2023)
 
-# Python Installation and Python Installers
+## Python Installation and Python Installers
 
 [Anaconda Install for Windows (Python, Jupyter Lab, Spyder IDE, etc.) in 14 steps](https://docs.anaconda.com/free/anaconda/install/windows/)
 
@@ -9,7 +9,7 @@
 
 [Web-based Python Interpreter](https://www.pythonmorsels.com/)
 
-# Python Book, Slides, YouTube Videos, and Code
+## Python Book, Slides, YouTube Videos, and Code
 
 [Free book - Python for Everybody by Dr. Charles R. Severance](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf)
  
@@ -41,7 +41,7 @@ https://github.com/sersavn/coursera-python-for-everybody-specialization)
 
 [CS 1110: Introduction to Computing Using Python Spring 2016 (Lecture notes, slides, and example code)](https://www.cs.cornell.edu/courses/cs1110/2016sp/lectures/index.php.html) 
 
-# Python Tutorials - various
+## Python Tutorials - various
 
 [Zetcode Python Tutorials](https://zetcode.com/lang/python/)
 
@@ -60,10 +60,10 @@ https://www.kdnuggets.com/how-to-write-efficient-python-code-a-tutorial-for-begi
 
 [Learn Python Programming (Course advertisement with good pointers)](https://www.edureka.co/blog/python-programming-language#PythonFundamentals)
 
-# Bootcamp in Python 
+## Bootcamp in Python 
 [Python Projects  for Beginners: A Ten-Week Bootcamp Approach to Python Programming](https://github.com/shintwelv/10_weeks_python_bootcamp)
 
-# Selected Python Tools and Tips
+## Selected Python Tools and Tips
 [An iterable is anything you can iterate over (an iter-able)](https://www.pythonmorsels.com/iterable/)
  
 [List comprehensions in Python: List Comprehensions are more specialized than for loops](https://www.pythonmorsels.com/what-are-list-comprehensions/)
@@ -135,7 +135,7 @@ http://tdc-www.harvard.edu/Python.pdfhttps://www.kdnuggets.com/mastering-the-art
  
 [Writing Parquet Files in Python with Pandas, PySpark, and Koalas](https://mungingdata.com/python/writing-parquet-pandas-pyspark-koalas/)
 
-# Reading and Writing Files and Directory Management in Python
+## Reading and Writing Files and Directory Management in Python
 
 [Nivedita (NS). Reading and Writing Files with Ease](https://towardsdev.com/mastering-file-handling-in-python-reading-and-writing-files-with-ease-f9eb9f6a568c)
 
@@ -143,7 +143,7 @@ http://tdc-www.harvard.edu/Python.pdfhttps://www.kdnuggets.com/mastering-the-art
 
 [Python 3 Quick Tip: The easy way to deal with file paths on Windows, Mac and Linux](https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f)
 
-# Regular Expression in Python
+## Regular Expression in Python
 
 [Common Python Regex Patterns](https://www.dataquest.io/blog/regular-expressions-data-scientists/)
  
@@ -157,10 +157,10 @@ http://tdc-www.harvard.edu/Python.pdfhttps://www.kdnuggets.com/mastering-the-art
 
 [Python for Everybody – Regular Expression](https://github.com/AmaniAbbas/py4e/blob/master/Course-3/Quizzes/quiz_chapter11.md)
  
-# Cheat Sheet
+## Cheat Sheet
 [The Ultimate Python Cheat Sheet](https://blog.finxter.com/wp-content/uploads/2020/07/Finxter_WorldsMostDensePythonCheatSheet.pdf)
 
-# Other Tools
+## Other Tools
 
 [Short-cuts in Jupyter Notebook](https://medium.com/@ashwin3005/shortcuts-in-jupyter-notebook-fc0543e72512)
 
