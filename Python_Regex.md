@@ -13,3 +13,27 @@
 
 [Regular Expression HOWTO](https://docs.python.org/3/howto/regex.html)
 
+## Things to use for pattern-matching
+
+* The Wildcard
+* Escaping special Characters
+* Character Sets
+* Alternatives and Subpatterns
+* Optional and Repeated Subpatterns
+* The Beginning and End of a String
+
+## Some functions in the re module
+
+* Compile()
+* search()
+* match()
+* split()
+* findall()
+* sub()
+* escape()
+
+
+
+
+
+

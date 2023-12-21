@@ -57,4 +57,6 @@ an article by Aryan Garg in KDnuggets Newsletter on November 10, 2023
 	## Data Analysis Using Pandas/Python
 	
 	[Data Analysis in Python](https://dataanalysispython.readthedocs.io/en/latest/)
+	
+	[7 Pandas Plotting Functions for Quick Data Visualization](https://www.kdnuggets.com/7-pandas-plotting-functions-for-quick-data-visualization)
 
