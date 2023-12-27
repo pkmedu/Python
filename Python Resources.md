@@ -5,6 +5,7 @@
 
 [Anaconda Install for Windows (Python, Jupyter Lab, Spyder IDE, etc.) in 14 steps](https://docs.anaconda.com/free/anaconda/install/windows/)
 
+[Installing Python 3](http://introtopython.org/programming_environment_windows.html)
 [Using the Python Interpreter](https://docs.python.org/3/tutorial/interpreter.html#invoking-the-interpreter)
 
 [Web-based Python Interpreter](https://www.pythonmorsels.com/)
