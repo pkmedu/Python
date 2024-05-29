@@ -44,8 +44,6 @@ https://github.com/sersavn/coursera-python-for-everybody-specialization)
 
 ## Python Tutorials - various
 
-[Ultimate Python Cheat Sheets](https://medium.com/@roelljr/ultimate-python-cheat-sheet-practical-python-for-everyday-tasks-c267c1394ee8)
-
 [Zetcode Python Tutorials](https://zetcode.com/lang/python/)
 
 [Python 3 Notes](https://sites.pitt.edu/~naraehan/python3/)
@@ -155,6 +153,9 @@ https://www.dataquest.io/blog/python-dictionary-comprehension-tutorial/)
 [Basic Python Semantics: Variables and Objects](https://jakevdp.github.io/WhirlwindTourOfPython/03-semantics-variables.html)
 
 ## Cheat Sheet
+
+[Ultimate Python Cheat Sheets](https://medium.com/@roelljr/ultimate-python-cheat-sheet-practical-python-for-everyday-tasks-c267c1394ee8)
+
 [The Ultimate Python Cheat Sheet](https://blog.finxter.com/wp-content/uploads/2020/07/Finxter_WorldsMostDensePythonCheatSheet.pdf)
  
 [Mastering the Art of Data Cleaning in Python](
