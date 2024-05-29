@@ -2,8 +2,6 @@
 
 [Writing Parquet Files in Python with Pandas, PySpark, and Koalas](https://mungingdata.com/python/writing-parquet-pandas-pyspark-koalas/)
 
-[Filtering Dataframes](https://www.dataquest.io/blog/filtering-pandas-dataframes/)
-
 ## $\textnormal{\color{red} Pandas Functions}$
 
 Several Pandas functions (code and text) below are selectively obtained from 
@@ -25,6 +23,7 @@ $\textnormal{\color{red} 2. Statistics}$
 	4. df.memory_usage() tells you how much memory is being consumed by each column.
 
 $\textnormal{\color{red} 3. Data Selection}$
+[Filtering Dataframes](https://www.dataquest.io/blog/filtering-pandas-dataframes/)
 
 	1.	df.iloc[row_num] will select a particular row based on its index.
 	2.	df[col_name] will select the particular column.
