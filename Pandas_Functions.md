@@ -23,6 +23,7 @@ $\textnormal{\color{red} 2. Statistics}$
 	4. df.memory_usage() tells you how much memory is being consumed by each column.
 
 $\textnormal{\color{red} 3. Data Selection}$
+
 [Filtering Dataframes](https://www.dataquest.io/blog/filtering-pandas-dataframes/)
 
 	1.	df.iloc[row_num] will select a particular row based on its index.
