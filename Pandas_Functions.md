@@ -6,7 +6,7 @@
 
 ## $\textnormal{\color{red} Pandas Functions}$
 
-The following Pandas functions (code and text) are selectively obtained from 
+Several Pandas functions (code and text) below are selectively obtained from 
 an article by Aryan Garg in the [KDnuggets Newsletter](https://www.kdnuggets.com/10-essential-pandas-functions-every-data-scientist-should-know).
 
 
