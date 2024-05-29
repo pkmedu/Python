@@ -7,8 +7,7 @@
 ## $\textnormal{\color{red} Pandas Functions}$
 
 The following Pandas functions (code and text) are selectively obtained from 
-an article by Aryan Garg in KDnuggets Newsletter on November 10, 2023 
-(https://www.kdnuggets.com/10-essential-pandas-functions-every-data-scientist-should-know).
+an article by Aryan Garg in the [KDnuggets Newsletter](https://www.kdnuggets.com/10-essential-pandas-functions-every-data-scientist-should-know).
 
 
 1. Data Viewing
