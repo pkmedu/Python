@@ -17,21 +17,21 @@ $\textnormal{\color{red} 1. Data Viewing}$
 	3.	df.sample(n) displays the random n number of rows in the sample data.
 	4.	df.shape displays the sample data's rows and columns (dimensions).
 
-2. Statistics
+$\textnormal{\color{red} 2. Statistics}$
 
 	1. df.describe() provides the basic statistics of each column of the sample data
 	2. df.info() provides information about the various data types used and the non-null count of each column.
 	3. df.corr() gives you the correlation matrix between all the integer columns in the data frame.
 	4. df.memory_usage() tells you how much memory is being consumed by each column.
 
-3. Data Selection
+$\textnormal{\color{red} 3. Data Selection}$
 
 	1.	df.iloc[row_num] will select a particular row based on its index.
 	2.	df[col_name] will select the particular column.
 	3.	df[[‘col1’, ‘col2’]] will select multiple columns given.
 
 
-4.	Data Cleaning
+$\textnormal{\color{red} 4. Data Cleaning}$
 
 	1. df.isnull() will identify the missing values in your dataframe.
 	2.df.dropna() will remove the rows containing missing values in any column.
@@ -39,7 +39,7 @@ $\textnormal{\color{red} 1. Data Viewing}$
 	4. df[‘col’].astype(new_data_type) can convert the data type of selected columns to a different data type.
 	5. wadf[‘col’].astype(new_data_type)can convert the data type of selected columns to a different data type.
 
-5. Data Analysis
+$\textnormal{\color{red} 5. Data Analysis}$
 
 	1.	Aggregation Functions group a column by its name and then apply some aggregation functions like sum, min/max, mean, etc.
 	2.	Filtering Data:  You can filter the data in rows based on a specific value or a condition.
