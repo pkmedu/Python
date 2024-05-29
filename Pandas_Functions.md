@@ -4,7 +4,7 @@
 
 [Filtering Dataframes](https://www.dataquest.io/blog/filtering-pandas-dataframes/)
 
-## Pandas Functions
+## $\textnormal{\color{red} Pandas Functions}$
 
 The following Pandas functions (code and text) are selectively obtained from 
 an article by Aryan Garg in KDnuggets Newsletter on November 10, 2023 
@@ -37,24 +37,24 @@ an article by Aryan Garg in KDnuggets Newsletter on November 10, 2023
 	1. df.isnull() will identify the missing values in your dataframe.
 	2.df.dropna() will remove the rows containing missing values in any column.
 	3. df.fillna(val) will fill the missing values with val given in the argument.
-	4. df[‘col’].astype(new_data_type): It can convert the data type of the selected columns to a different data type.
-	5. wadf[‘col’].astype(new_data_type)can convert the data type of the selected columns to a different data type.
+	4. df[‘col’].astype(new_data_type) can convert the data type of selected columns to a different data type.
+	5. wadf[‘col’].astype(new_data_type)can convert the data type of selected columns to a different data type.
 
 5. Data Analysis
 
 	1.	Aggregation Functions group a column by its name and then apply some aggregation functions like sum, min/max, mean, etc.
 	2.	Filtering Data:  You can filter the data in rows based on a specific value or a condition.
-	3.	Sorting Data: You can sort the data based on a specific column, either in ascending or descending order.
+	3.	Sorting Data: You can sort the data based on a specific column in ascending or descending order.
 	4.	Pivot Tables: You can create pivot tables that summarize the data using specific columns. This type of tables is very useful in analyzing the data when you only want to consider the effect of particular columns.
-	5.	Combining Data Frames: We can combine and merge several data frames either horizontally or vertically. It will concatenate two data frames and return a single merged data frame.
-	6.	Applying Custom Functions: You can apply custom functions in either a row or a column according to your needs.
-	7.	Applymap: We can also apply a custom function to every element of the dataframe in a single line of code. But a point to remember is that it applies to all the dataframe elements.
+	5.	Combining Data Frames: We can combine and merge several data frames horizontally or vertically. It will concatenate two data frames and return a single merged data frame.
+	6.	Applying Custom Functions: Depending on your needs, you can apply custom functions in either a row or a column.
+	7.	Applymap: We can also apply a custom function to every element of the dataframe in a single line of code. But remember that it applies to all the dataframe elements.
 
 	8. Time Series Analysis: In mathematics, time series analysis means analyzing the data collected over a specific time interval, and pandas have functions to perform this type of analysis.
-	9. Cross Tabulation: We can perform cross-tabulation between two columns of a table. It is generally a frequency table that shows the frequency of occurrences of various categories. It can help you to understand the distribution of categories across different regions.
-	10. Handling Outliers: Outliers in data means that a particular point goes far beyond the average range.
+	9. Cross Tabulation: We can perform cross-tabulation between two table columns. It is generally a frequency table that shows the frequency of occurrences of various categories. It can help you to understand the distribution of categories across different regions.
+	10. Handling Outliers: Outliers in data means a particular point goes far beyond the average range.
 	
-	## Data Analysis Using Pandas/Python
+	## $\textnormal{\color{red} Data Analysis Using Pandas/Python}$
 	
 	[Data Analysis in Python](https://dataanalysispython.readthedocs.io/en/latest/)
 	
