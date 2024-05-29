@@ -35,7 +35,7 @@ https://github.com/jmelahman/python-for-everybody-solutions)
 [Interactive notebooks and files for the Python for Everybody course](
 https://github.com/CodingForEverybody/python-for-everybody/tree/master)
 
-[Assignments, notes, quizzes and course materials from the "Python for Everybody Specialization](
+[Assignments, notes, quizzes, and course materials from the "Python for Everybody Specialization](
 https://github.com/sersavn/coursera-python-for-everybody-specialization)
 
 [CS 1110: Introduction to Computing Using Python Spring 2016](https://www.cs.cornell.edu/courses/cs1110/2016sp/lectures/index.php.html)
@@ -61,8 +61,8 @@ https://www.kdnuggets.com/how-to-write-efficient-python-code-a-tutorial-for-begi
 
 [Learn Python Programming (Course advertisement with good pointers)](https://www.edureka.co/blog/python-programming-language#PythonFundamentals)
 
- ##  $\textnormal{\color{red}Selected Python Tools and Tips}$
-
+ ## $\textnormal{\color{red} Selected Python Tools and Tips}$
+ 
 [An iterable is anything you can iterate over (an iter-able)](https://www.pythonmorsels.com/iterable/)
  
 [List comprehensions in Python: List Comprehensions are more specialized than for loops](https://www.pythonmorsels.com/what-are-list-comprehensions/)
