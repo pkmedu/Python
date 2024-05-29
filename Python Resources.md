@@ -61,7 +61,7 @@ https://www.kdnuggets.com/how-to-write-efficient-python-code-a-tutorial-for-begi
 
 [Learn Python Programming (Course advertisement with good pointers)](https://www.edureka.co/blog/python-programming-language#PythonFundamentals)
 
- ##  $\textnormal{\color{red} Selected Python Tools and Tips}$
+ ##  $\textnormal{\color{red}Selected Python Tools and Tips}$
 
 [An iterable is anything you can iterate over (an iter-able)](https://www.pythonmorsels.com/iterable/)
  
