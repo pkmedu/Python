@@ -10,7 +10,7 @@ The following Pandas functions (code and text) are selectively obtained from
 an article by Aryan Garg in the [KDnuggets Newsletter](https://www.kdnuggets.com/10-essential-pandas-functions-every-data-scientist-should-know).
 
 
-1. Data Viewing
+$\textnormal{\color{green} 1. Data Viewing}$
  
 	1.	df.head() displays the first five rows of the sample data.
 	2.	df.tail() displays the last five rows of the sample data.
