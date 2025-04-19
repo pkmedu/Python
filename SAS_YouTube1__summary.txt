@@ -1,0 +1,558 @@
+=== Transcript ===
+I am so excited to talk to
+you about SAS macro variables today. And before I dive in. I actually want to
+explain a little bit why. So when I first started learning
+the SAS programming language, I was primarily self-taught. I kind of just got by
+on other people's code, maybe a little help
+from documentation, and some just guess
+and check and luck. But then I actually
+took a SAS macro class. And it was life-changing. It completely
+changed my approach to how I wrote my SAS code. And I felt like
+it made me so much more efficient and
+useful to my colleagues that I was developing code for. So with that little
+motivation,
+let's go ahead and get started. What I want to do is show
+you three main topics about macro variables. So the first will just be
+what are macro variables, and how can you create them. The second topic will be,
+how can you manipulate macro variables with macro functions. And then the third
+topic will
+be creating macro variables from data using SQL. So with that, let's go
+ahead and jump right in. Before I dive into
+code, let's take a look at the table we're
+going to be using. This is SASHELP.CARS We
+have one row for a variety of different cars. And the columns we're going to
+pay attention to in the code will be Drive Train. There's three different
+values-- All, Front, and Rear. MSRP, manufacturers
+suggested retail price, is a number we'll subset on. And one other that
+we'll analyze will be MPG, miles per gallon highway. So with those in mind, I'm
+going to show you this program. This is a simple program
+where I am looking at a particular
+value of Drive Train, in this case Front
+and cars that are under a certain price, MSRP. I'm using Front in
+three different places in the code-- in the title and
+a couple of WHERE statements. And same with that
+threshold for MSRP. I'll run the program. And you can see that the output
+creates a nice little bar chart and a PROC MEANS report. Now, you probably have
+had this experience before where you write a program
+and think "this is great". But actually, I'd like to
+look at it for other values, maybe Drive Train All and
+a threshold of $40,000. And you could certainly
+do find and replace or a variety of
+different manual edits in order to make those
+changes in your program. But that's prone to error. It can be resource
+intensive. It just depends. It's a pain to do that
+kind of maintenance. How could we
+simplify our program? This is where the
+macro language shines. So the SAS macro language
+is about modifying code that rewrites itself. It's so cool. So if you think
+about what you
+maybe have done in regular SAS code, things like
+DATA steps and PROC steps, those are typically
+reading data, manipulating data values, and creating
+some sort of output, whether it's a
+report or a table. Again, those steps are
+about manipulating data. I want you to think about
+the SAS macro language as manipulating code. In other words, changing
+the text within your code dynamically. So how can we do this? What I'll do is
+I'll
+actually copy this program and create a new
+program to work with. And at the beginning, I'm
+going to add a statement that's called %LET. This is a macro statement. You'll
+recognize macro
+statements will always start with a percent sign. After %LET, I'm going to
+name my macro variable. And I'll call it
+dt for drive train. dt is going to store
+a text string, Front. And I'll end it
+with a semicolon. I'll do the same to create
+another macro variable, we'll call maxprice. And that one will store 30,000. So
+now that we have these %LET
+statements that have created macro variables,
+dt and max Price, I can use those macro variables
+in the appropriate places to substitute
+those text strings. So rather than typing
+front in the title, I'll reference my macro
+variable with an ampersand. That's another macro
+trigger, like a percent sign. And then the name of
+the macro variable &dt. I'll go ahead and just
+copy that and paste it in all of the other places
+where front occurs in the code. Now, for 30,000, I'll
+replace that with &maxprice. Do a little copy and
+paste for that as well. And let's try it out. When I run this
+program, SAS will substitute the macro
+variable values into the correct
+places in the code. So notice my title
+looks perfect. My PROC MEANS was generated. And if I take a quick
+peek at the log, I can see that the
+WHERE statement has substituted in its
+place the string Front, as well as 30,000. Perfect. Now, here's the elegance
+of what we've done here and what the macro
+language offers. Now, if I want to rerun my
+program with different values, I don't have to make
+six changes, just two. I can change front to all. maxprice, let's
+change it to 40,000. With those two little
+edits, I rerun my program. You'll see the brand new
+title, an updated graph, and the log shows
+the WHERE statement with those strings substituted
+in the right place. Let's move on to
+discuss macro functions. And actually, before I
+get into macro functions, let's talk about
+regular functions. If I go back to the original
+SAS program, think about this. What if I want to make that
+WHERE expression with Drive Train case insensitive. In other words, if the
+data value of Drive Train is uppercase,
+lowercase, mixed case, whatever, I still want it
+to be returned in my graph and in my PROC MEANS. So the way we would do that,
+typically, is with a function, like UPCASE, so that the
+data values of drive train would be considered
+upcase in order to evaluate this expression. And then I'd want to make the
+quoted string upcase as well. This would make for a case
+insensitive comparison. So that works great. The UPCASE function
+in this example is actually converting, if
+you will, the data values. So as the program executes,
+it's considering the values of drive train as uppercase. OK? Well, how would
+this translate
+in our macro program? Come over to what we
+had created earlier. And I would like to make this
+expression case insensitive. So I'll do the same
+thing I did before and use the regular UPCASE
+function on Drive Train. But now, how can
+I ensure that when ALL is substituted in those
+quotes that it's going to be uppercase capital A-L-L? I can't use a regular
+UPCASE
+function in this scenario because it's the
+text of the code that I want to modify,
+not a data value. So regular UPCASE
+isn't going to work. But this is where the beauty
+of macro functions comes in. Just as there is a
+regular UPCASE function, there's also a macro
+%UPCASE function. So let's make this comparison
+completely case insensitive now. For example, what happens if
+I define my macro variable dt as just lowercase, a-l-l? I want to make
+sure that when it's substituted into these quotes
+that it's in capital letters. The way I can do that is with
+the macro function %UPCASE. So I'll go ahead and
+add that around &dt. And I'm actually just going
+to copy that WHERE statement from PROC SGPLOT and
+replace it in PROC MEANS here so they're
+exactly the same. So think about the difference
+between these two UPCASE functions. On the left side
+of the expression, it's the regular UPCASE function
+that's actually converting the data values to uppercase. On the right side
+of the expression, we're using the macro
+UPCASE function. What it's doing is
+actually taking the value of the macro variable all. And before substituting it
+into the quotes, making it uppercase text. So it's modifying the
+text within the program. So let's run the program
+now and see how it looks. My title doesn't look so great. We'll deal with that.
+But the bar chart is perfect. And if I look at the
+log, my WHERE statement is case insensitive,
+just as we need it. If we want to go ahead and fix
+the case of the title, lower case, all, you might be familiar
+with the PROPCASE function that will do a capital first letter,
+lower case rest of the word. The problem is there isn't
+a %PROPCASE macro function. So there isn't always
+a one-to-one comparison with a regular function
+and a macro function. However, we do have this
+awesome little helper function that's called %SYSFUNC. And what that allows us
+to do
+is to borrow regular functions, like PROPCASE, and use them,
+but in a macro capacity. So we're actually going to
+convert the case of the value all into proper case. Let's see how that works.
+The title looks much better. I'll admit, this third section
+is probably my favorite. So what we're going
+to do is actually use PROC SQL to create
+our macro variables and assign values
+directly from the data. Let's take a look at
+the code once again. And let's say that what
+I'd like to do here is actually add a
+reference line in my graph that indicates the overall
+average miles per gallon for all the cars
+that we've selected. I could do this with a
+little PROC SQL step. So I'm going to add in PROC SQL. And I will select the
+mean of MPG_Highway. And I need to do this from
+the table SASHELP.CARS. And I will just borrow
+my WHERE statement so it's exactly the same. And QUIT. I'll run just the %LET
+statements and the PROC SQL step to see that the overall
+average miles per gallon for those selected cars is 23.5
+and a bunch of decimal places. So what I would
+do at this point, if I were taking
+the manual approach, would be to take that
+number, copy it, go back into my program, and paste
+in all the necessary places. For example, I'd probably
+put in a footnote that said Average MPG and
+then plug in that number. And I'm also going
+to add in the PROC SGPLOT a REFLINE statement. Once again, use
+that same number. And this will go on the X-axis. So with those two
+additions, let's go ahead and run the program. And there's the reference line.
+And we can see the footnote
+is included in the graph. But think about this from
+a maintenance perspective. If I go back to the
+original program and decide, you know what, I'd like to
+look at rear wheel drive cars, and I want to subset for
+anything less than $25,000. Well, I've got to update
+this program in two steps. Because, first, I have
+to run the SQL step with the new values in order
+to calculate that overall mean. And then I have to
+take that number and copy and paste it
+into all the right places. Again, that makes it really easy
+to miss a step, to accidentally forget where to put it. And it's just more
+hands-on. The macro language
+will write programs that rewrite themselves. So how can we do
+this with PROC SQL? PROC SQL includes a
+really cool little clause that's called INTO. And what that allows
+us to do is take the values that have been
+returned from the query and load them into
+macro variables. We start just with INTO. This is directly after
+the SELECT clause. And then we put a colon. This is a key symbol
+that will indicate it's the macro variable name. And I'm going to
+call this AVGMPG. That's it. So the macro
+variable AVGMPG will receive the value returned from
+the query, whatever it may be. So now, rather than hard
+coding in those values, I can reference the macro
+variable both in the footnote, and I'll do the same in
+the REFLINE statement. Perfect. All right. I'm going to change this. Let's go
+back to
+front wheel drive. And I'll make the
+maxprice 50 this time. And I'll run the program. That SQL code is still
+producing a simple little report showing us what that number is. And we notice
+that it
+is included accurately in the graph as the reference
+line, as well as the footnote. Now, a couple of things that
+I want to point out here. Notice that's a lot
+more decimal places than you probably want to see. No problem. Back in the code,
+in our SQL query, I can simply just add a format
+option on the SELECT clause. So format equal,
+I'll do 4.1 to round to a single decimal place. And try this again. And it looks
+great. Much more efficient without
+all those decimal places. One other little option
+I want to mention, just because it can be
+helpful, is the TRIMMED option. The INTO clause
+doesn't automatically remove leading and
+trailing spaces. %LET does, but not INTO. So if I go back to
+my program, if there happens to be leading or
+trailing spaces after, what I can do is immediately
+after that macro variable name, just add trimmed. That's it. I'll go ahead and
+run my program. And everything looks great. Now, at this point, I'm
+done with this SQL report. I don't need to see it
+because, really, its purpose is to generate the macro variable. I can add on
+PROC SQL NOPRINT. And then that will
+suppress the report. And all we're left with
+will be the graph and then our PROC MEANS. So obviously, I'm pretty excited
+about the macro language. And I hope you are too. We've just barely scratched
+the surface of what you can do, but this should get you started. So going from
+here, you
+can feel free to take a look at the links
+that are down below and maybe see some other
+resources that could help you. And I hope you'll also
+take time to maybe enter a comment about how
+the macro language is going to make your life
+easier as a SAS programmer. And if you want more tips
+and tricks like these that I've shared with you,
+please subscribe to our channel and enjoy other input from
+other SAS instructors.
+
+=== Characters Per Line ===
+Line  1: 26 characters
+Line  2: 77 characters
+Line  3: 58 characters
+Line  4: 80 characters
+Line  5: 43 characters
+Line  6: 39 characters
+Line  7: 39 characters
+Line  8: 63 characters
+Line  9: 63 characters
+Line 10: 37 characters
+Line 11: 87 characters
+Line 12: 57 characters
+Line 13: 70 characters
+Line 14: 80 characters
+Line 15: 90 characters
+Line 16: 71 characters
+Line 17: 43 characters
+Line 18: 42 characters
+Line 19: 42 characters
+Line 20: 76 characters
+Line 21: 124 characters
+Line 22: 71 characters
+Line 23: 79 characters
+Line 24: 56 characters
+Line 25: 34 characters
+Line 26: 40 characters
+Line 27: 65 characters
+Line 28: 53 characters
+Line 29: 48 characters
+Line 30: 73 characters
+Line 31: 79 characters
+Line 32: 52 characters
+Line 33: 52 characters
+Line 34: 54 characters
+Line 35: 47 characters
+Line 36: 35 characters
+Line 37: 45 characters
+Line 38: 121 characters
+Line 39: 33 characters
+Line 40: 39 characters
+Line 41: 48 characters
+Line 42: 90 characters
+Line 43: 48 characters
+Line 44: 46 characters
+Line 45: 52 characters
+Line 46: 35 characters
+Line 47: 41 characters
+Line 48: 50 characters
+Line 49: 69 characters
+Line 50: 82 characters
+Line 51: 43 characters
+Line 52: 47 characters
+Line 53: 94 characters
+Line 54: 74 characters
+Line 55: 40 characters
+Line 56: 40 characters
+Line 57: 37 characters
+Line 58: 44 characters
+Line 59: 107 characters
+Line 60: 45 characters
+Line 61: 49 characters
+Line 62: 39 characters
+Line 63: 41 characters
+Line 64: 43 characters
+Line 65: 48 characters
+Line 66: 50 characters
+Line 67: 46 characters
+Line 68: 49 characters
+Line 69: 53 characters
+Line 70: 49 characters
+Line 71: 61 characters
+Line 72: 38 characters
+Line 73: 32 characters
+Line 74: 38 characters
+Line 75: 65 characters
+Line 76: 35 characters
+Line 77: 38 characters
+Line 78: 76 characters
+Line 79: 42 characters
+Line 80: 43 characters
+Line 81: 51 characters
+Line 82: 65 characters
+Line 83: 42 characters
+Line 84: 51 characters
+Line 85: 42 characters
+Line 86: 50 characters
+Line 87: 36 characters
+Line 88: 47 characters
+Line 89: 42 characters
+Line 90: 47 characters
+Line 91: 58 characters
+Line 92: 74 characters
+Line 93: 39 characters
+Line 94: 48 characters
+Line 95: 77 characters
+Line 96: 55 characters
+Line 97: 46 characters
+Line 98: 74 characters
+Line 99: 56 characters
+Line 100: 64 characters
+Line 101: 42 characters
+Line 102: 54 characters
+Line 103: 91 characters
+Line 104: 42 characters
+Line 105: 50 characters
+Line 106: 48 characters
+Line 107: 45 characters
+Line 108: 41 characters
+Line 109: 46 characters
+Line 110: 82 characters
+Line 111: 42 characters
+Line 112: 39 characters
+Line 113: 35 characters
+Line 114: 49 characters
+Line 115: 47 characters
+Line 116: 45 characters
+Line 117: 47 characters
+Line 118: 61 characters
+Line 119: 70 characters
+Line 120: 49 characters
+Line 121: 59 characters
+Line 122: 48 characters
+Line 123: 48 characters
+Line 124: 49 characters
+Line 125: 40 characters
+Line 126: 47 characters
+Line 127: 52 characters
+Line 128: 51 characters
+Line 129: 74 characters
+Line 130: 40 characters
+Line 131: 35 characters
+Line 132: 79 characters
+Line 133: 64 characters
+Line 134: 49 characters
+Line 135: 130 characters
+Line 136: 44 characters
+Line 137: 50 characters
+Line 138: 61 characters
+Line 139: 63 characters
+Line 140: 55 characters
+Line 141: 49 characters
+Line 142: 47 characters
+Line 143: 46 characters
+Line 144: 84 characters
+Line 145: 60 characters
+Line 146: 51 characters
+Line 147: 137 characters
+Line 148: 44 characters
+Line 149: 40 characters
+Line 150: 37 characters
+Line 151: 44 characters
+Line 152: 44 characters
+Line 153: 37 characters
+Line 154: 53 characters
+Line 155: 41 characters
+Line 156: 43 characters
+Line 157: 76 characters
+Line 158: 47 characters
+Line 159: 46 characters
+Line 160: 77 characters
+Line 161: 56 characters
+Line 162: 56 characters
+Line 163: 46 characters
+Line 164: 34 characters
+Line 165: 42 characters
+Line 166: 51 characters
+Line 167: 54 characters
+Line 168: 43 characters
+Line 169: 44 characters
+Line 170: 62 characters
+Line 171: 67 characters
+Line 172: 106 characters
+Line 173: 51 characters
+Line 174: 46 characters
+Line 175: 55 characters
+Line 176: 55 characters
+Line 177: 52 characters
+Line 178: 49 characters
+Line 179: 48 characters
+Line 180: 50 characters
+Line 181: 38 characters
+Line 182: 59 characters
+Line 183: 103 characters
+Line 184: 61 characters
+Line 185: 39 characters
+Line 186: 66 characters
+Line 187: 42 characters
+Line 188: 42 characters
+Line 189: 64 characters
+Line 190: 64 characters
+Line 191: 65 characters
+Line 192: 41 characters
+Line 193: 52 characters
+Line 194: 55 characters
+Line 195: 49 characters
+Line 196: 54 characters
+Line 197: 85 characters
+Line 198: 36 characters
+Line 199: 71 characters
+Line 200: 86 characters
+Line 201: 52 characters
+Line 202: 59 characters
+Line 203: 45 characters
+Line 204: 80 characters
+Line 205: 48 characters
+Line 206: 45 characters
+Line 207: 115 characters
+Line 208: 49 characters
+Line 209: 41 characters
+Line 210: 47 characters
+Line 211: 40 characters
+Line 212: 60 characters
+Line 213: 45 characters
+Line 214: 51 characters
+Line 215: 78 characters
+Line 216: 67 characters
+Line 217: 49 characters
+Line 218: 113 characters
+Line 219: 44 characters
+Line 220: 75 characters
+Line 221: 77 characters
+Line 222: 88 characters
+Line 223: 41 characters
+Line 224: 44 characters
+Line 225: 53 characters
+Line 226: 44 characters
+Line 227: 45 characters
+Line 228: 53 characters
+Line 229: 48 characters
+Line 230: 58 characters
+Line 231: 22 characters
+
+=== Summary ===
+SAS macro variables are a way for programmers to control variables in their
+code. The SAS programming language is written in the programming language SAS.
+SAS macro variables can be used to control certain variables. " macro variables"
+can be used to create and manipulate data. This article explains how to use
+macro variables in your code. SASHELP.CARS has one row for a variety of
+different cars. There's three different values-- All, Front, and Rear. MSRP,
+manufacturerssuggested retail price, is a number we'll subset on. A simple
+program that looks at a particular value of Drive Train. I'm using Front in
+three different places in the code. The output is a nice little bar chart and a
+PROC MEANS report. "It can be resource intensive. It just depends. It's a pain
+to do that kind of maintenance" "You could certainly find and replace" The SAS
+macro language is about modifying code that rewrites itself. It's so cool. How
+could we                simplify our program? This is where the macros shines.
+SAS macro language is used to change text within your code dynamically. I want
+you to think about the SAS macro language as manipulating code. The macro
+variables dt and max Price can be used to substitute text strings. dt is going
+to store                a text string, Front. And I'll end it              
+ with a semicolon. I'll do the same to SAS will substitute the macro variables
+into the correct places in the code. When I run this program, SAS will replace
+the macrovariable values with the correct values. My PROC MEANS was generated.
+The macro has substituted in its WHERE statement the string Front, as well as
+30,000. Now, if I want to rerun my program with different values, I don't have
+to make six changes, just two. You'll see the brand new title, an updated graph,
+and the log shows the WHERE statement with those strings substituted in the
+right place. Let's move on to discussing macro functions. The way we would do
+that, typically, is with a function, like UPCASE, so that the data values of
+drive train would be considered                upcase in order to evaluate this
+expression. And then I'd want to make The UPCASE function is actually
+converting, if you will, the data values. So as the program executes, it's
+considering the values of drive train as uppercase. Well, how would this
+translatein our macro program? I can't use a regular UPCASEfunction in this
+scenario because it's the text of the code that I want to modify, not a data
+value. But this is where the beauty of macro functions comes in. Just as there
+The macro function %UPCASE can be used to replace lowercase with capital
+letters. For example, what happens if I define my macro variable dt as just
+lowercase, a-l-l? On the right side of the expression, we're using the
+macroUPCASE function. What it's doing is taking the value of the macro variable
+all. And before substituting it into the quotes, making it uppercase text The
+WHERE statement is case insensitive, just as we need it. There isn't always a
+one-to-one comparison with a regular function and a macro function. The bar
+chart is perfect. We're going to borrow regular functions, like PROPCASE, and
+use them, but in a macro capacity. So we're actually going to convert the case
+of the value all into proper case. We're going to use PROC SQL to create our
+macro variables and assign values from the data. Let's take a look at the code
+once again. And let's say that what we'd like to do here is actually add
+areference The overall average miles per gallon for those selected cars is 23.5.
+So what I would do at this point, if I were taking a manual approach, would be
+to take that number, copy it, go back into my program A footnote that says
+Average MPG and                then plug in that number. And we can see the
+footnoteis included in the graph. But think about this from a maintenance
+perspective. The program has to be updated in two steps. The first step is to
+run the SQL step with the new values. The second is to copy and paste the new
+numbers into all the right places. Procedure includes a clause that's called
+INTO. And what that allowsus to do is take the values that have been returned
+from the query and load them into macros. All right. I'm going to change this.
+Let's go back tofront wheel drive. And I'll make the horriblymaxprice 50 this
+time. I'll run the program. That's it. The code is still producing a simple
+little report showing us what that number is. Notice that's a lot more decimal
+places than you probably want to see. No problem. Back in the code, I can simply
+just add a The INTO clause doesn't automatically remove leading and trailing
+spaces. %LET does, but not INTO. So if there happens to be leading or trailing
+spaces after, what I can do is immediately add trimmed. I'm pretty excited about
+the macro language. And I hope you are too. I'll go ahead and run my program and
+everything looks great. We've just barely scratched the surface of what you can
+do with SAS macro. So going from here, feel free to take a look at the links
+below and maybe see some other resources that could help you. If you want more
+tips and tricks like these that I've shared with you, please subscribe to our
+channel and enjoy other input from other instructors.
+
+=== Video Link ===
+https://www.youtube.com/watch?v=ODq6V69IX2Y
