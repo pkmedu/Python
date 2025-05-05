@@ -1,0 +1,15 @@
+{
+  "name": "ExtractYouTubeVideosByHashtag",
+  "properties": {
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "actions": {},
+      "triggers": {},
+      "contentVersion": "1.0.0.0"
+    },
+    "parameters": {},
+    "connectionReferences": {},
+    "flowFailureAlertSubscribed": false
+  },
+  "type": "Microsoft.Logic/workflows"
+}

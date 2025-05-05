@@ -1,0 +1,5 @@
+database,schema,table
+postgres,public,items
+myfirstdb,public,users
+myfirstdb,public,demographics
+classdb,public,students
