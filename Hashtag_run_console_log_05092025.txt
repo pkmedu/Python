@@ -1,0 +1,441 @@
+Python 3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.27.0 -- An enhanced Interactive Python.
+
+runfile('C:/Python/YouTubesApps/Find_videos_max_05082025.py', wdir='C:/Python/YouTubesApps')
+==================================================
+YouTube Hashtag Video Search Tool (Improved Version)
+==================================================
+Enter hashtags to search (separate with commas, no # symbol): Bangladeshminorities,bangladeshhindus,savehindus,MinorityRightsBD,
+HindusOfBangladesh,ChristiansOfBangladesh,BuddhistsOfBangladesh,
+HumanRightsBD,IndigenousPeoplesBD
+✅ Will search for 9 hashtags: #Bangladeshminorities, #bangladeshhindus, #savehindus, #MinorityRightsBD, #HindusOfBangladesh, #ChristiansOfBangladesh, #BuddhistsOfBangladesh, #HumanRightsBD, #IndigenousPeoplesBD
+How many videos would you like to fetch per hashtag? (default 10): max
+⚠️ Searching for maximum available results (this might take a while)
+Enter a custom save location (or press Enter for default Documents/YouTube_Hashtags): c:\Data\CSV_updated
+
+🔄 Processing 9 hashtags...
+
+
+==================================================
+Processing hashtag 1/9: #Bangladeshminorities
+==================================================
+
+🔎 Searching for videos with #Bangladeshminorities...
+🔄 Fetching more results... Total videos found: 20
+🔄 Fetching more results... Total videos found: 40
+🔄 Fetching more results... Total videos found: 59
+🔄 Fetching more results... Total videos found: 78
+🔄 Fetching more results... Total videos found: 98
+🔄 Fetching more results... Total videos found: 117
+🔄 Fetching more results... Total videos found: 137
+🔄 Fetching more results... Total videos found: 153
+🔄 Fetching more results... Total videos found: 173
+🔄 Fetching more results... Total videos found: 180
+🔄 Fetching more results... Total videos found: 200
+🔄 Fetching more results... Total videos found: 220
+🔄 Fetching more results... Total videos found: 239
+🔄 Fetching more results... Total videos found: 259
+🔄 Fetching more results... Total videos found: 279
+🔄 Fetching more results... Total videos found: 299
+🔄 Fetching more results... Total videos found: 319
+🔄 Fetching more results... Total videos found: 339
+🔄 Fetching more results... Total videos found: 359
+🔄 Fetching more results... Total videos found: 379
+🔄 Fetching more results... Total videos found: 399
+🔄 Fetching more results... Total videos found: 419
+🔄 Fetching more results... Total videos found: 437
+🔄 Fetching more results... Total videos found: 457
+🔄 Fetching more results... Total videos found: 477
+🔄 Fetching more results... Total videos found: 497
+🔄 Fetching more results... Total videos found: 517
+🔄 Fetching more results... Total videos found: 525
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 525
+⚠️ No new results found (attempt 2/3)
+🔄 Fetching more results... Total videos found: 525
+⚠️ No new results found (attempt 3/3)
+🛑 Stopping search after 525 results - no more results available
+📊 Total videos found for #Bangladeshminorities: 525
+
+✅ Saved 525 videos to C:\Data\CSV_updated\Bangladeshminorities_videos.csv
+
+📝 Tip: When opening in Excel, select all columns and use Format > Column > AutoFit Selection to adjust column widths
+
+==================================================
+Processing hashtag 2/9: #bangladeshhindus
+==================================================
+
+🔎 Searching for videos with #bangladeshhindus...
+🔄 Fetching more results... Total videos found: 20
+🔄 Fetching more results... Total videos found: 40
+🔄 Fetching more results... Total videos found: 59
+🔄 Fetching more results... Total videos found: 79
+🔄 Fetching more results... Total videos found: 98
+🔄 Fetching more results... Total videos found: 118
+🔄 Fetching more results... Total videos found: 138
+🔄 Fetching more results... Total videos found: 158
+🔄 Fetching more results... Total videos found: 178
+🔄 Fetching more results... Total videos found: 198
+🔄 Fetching more results... Total videos found: 218
+🔄 Fetching more results... Total videos found: 238
+🔄 Fetching more results... Total videos found: 258
+🔄 Fetching more results... Total videos found: 278
+🔄 Fetching more results... Total videos found: 298
+🔄 Fetching more results... Total videos found: 318
+🔄 Fetching more results... Total videos found: 338
+🔄 Fetching more results... Total videos found: 358
+🔄 Fetching more results... Total videos found: 378
+🔄 Fetching more results... Total videos found: 398
+🔄 Fetching more results... Total videos found: 418
+🔄 Fetching more results... Total videos found: 438
+🔄 Fetching more results... Total videos found: 458
+🔄 Fetching more results... Total videos found: 465
+🔄 Fetching more results... Total videos found: 485
+🔄 Fetching more results... Total videos found: 505
+🔄 Fetching more results... Total videos found: 525
+🔄 Fetching more results... Total videos found: 545
+🔄 Fetching more results... Total videos found: 565
+🔄 Fetching more results... Total videos found: 577
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 577
+⚠️ No new results found (attempt 2/3)
+🔄 Fetching more results... Total videos found: 577
+⚠️ No new results found (attempt 3/3)
+🛑 Stopping search after 577 results - no more results available
+📊 Total videos found for #bangladeshhindus: 577
+
+✅ Saved 577 videos to C:\Data\CSV_updated\bangladeshhindus_videos.csv
+
+📝 Tip: When opening in Excel, select all columns and use Format > Column > AutoFit Selection to adjust column widths
+
+==================================================
+Processing hashtag 3/9: #savehindus
+==================================================
+
+🔎 Searching for videos with #savehindus...
+🔄 Fetching more results... Total videos found: 20
+🔄 Fetching more results... Total videos found: 40
+🔄 Fetching more results... Total videos found: 60
+🔄 Fetching more results... Total videos found: 79
+🔄 Fetching more results... Total videos found: 97
+🔄 Fetching more results... Total videos found: 115
+🔄 Fetching more results... Total videos found: 133
+🔄 Fetching more results... Total videos found: 152
+🔄 Fetching more results... Total videos found: 171
+🔄 Fetching more results... Total videos found: 191
+🔄 Fetching more results... Total videos found: 208
+🔄 Fetching more results... Total videos found: 227
+🔄 Fetching more results... Total videos found: 247
+🔄 Fetching more results... Total videos found: 267
+🔄 Fetching more results... Total videos found: 287
+🔄 Fetching more results... Total videos found: 307
+🔄 Fetching more results... Total videos found: 327
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 327
+🔄 Fetching more results... Total videos found: 347
+🔄 Fetching more results... Total videos found: 363
+🔄 Fetching more results... Total videos found: 374
+🔄 Fetching more results... Total videos found: 389
+🔄 Fetching more results... Total videos found: 409
+🔄 Fetching more results... Total videos found: 428
+🔄 Fetching more results... Total videos found: 448
+🔄 Fetching more results... Total videos found: 467
+🔄 Fetching more results... Total videos found: 487
+🔄 Fetching more results... Total videos found: 507
+🔄 Fetching more results... Total videos found: 524
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 524
+🔄 Fetching more results... Total videos found: 535
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 535
+⚠️ No new results found (attempt 2/3)
+🔄 Fetching more results... Total videos found: 535
+⚠️ No new results found (attempt 3/3)
+🛑 Stopping search after 535 results - no more results available
+📊 Total videos found for #savehindus: 535
+
+✅ Saved 535 videos to C:\Data\CSV_updated\savehindus_videos.csv
+
+📝 Tip: When opening in Excel, select all columns and use Format > Column > AutoFit Selection to adjust column widths
+
+==================================================
+Processing hashtag 4/9: #MinorityRightsBD
+==================================================
+
+🔎 Searching for videos with #MinorityRightsBD...
+🔄 Fetching more results... Total videos found: 22
+🔄 Fetching more results... Total videos found: 41
+🔄 Fetching more results... Total videos found: 59
+🔄 Fetching more results... Total videos found: 77
+🔄 Fetching more results... Total videos found: 96
+🔄 Fetching more results... Total videos found: 115
+🔄 Fetching more results... Total videos found: 131
+🔄 Fetching more results... Total videos found: 150
+🔄 Fetching more results... Total videos found: 163
+🔄 Fetching more results... Total videos found: 182
+🔄 Fetching more results... Total videos found: 201
+🔄 Fetching more results... Total videos found: 221
+🔄 Fetching more results... Total videos found: 240
+🔄 Fetching more results... Total videos found: 259
+🔄 Fetching more results... Total videos found: 279
+🔄 Fetching more results... Total videos found: 299
+🔄 Fetching more results... Total videos found: 319
+🔄 Fetching more results... Total videos found: 339
+🔄 Fetching more results... Total videos found: 359
+🔄 Fetching more results... Total videos found: 379
+🔄 Fetching more results... Total videos found: 399
+🔄 Fetching more results... Total videos found: 419
+🔄 Fetching more results... Total videos found: 439
+🔄 Fetching more results... Total videos found: 459
+🔄 Fetching more results... Total videos found: 479
+🔄 Fetching more results... Total videos found: 480
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 480
+⚠️ No new results found (attempt 2/3)
+🔄 Fetching more results... Total videos found: 480
+⚠️ No new results found (attempt 3/3)
+🛑 Stopping search after 480 results - no more results available
+📊 Total videos found for #MinorityRightsBD: 480
+
+✅ Saved 480 videos to C:\Data\CSV_updated\MinorityRightsBD_videos.csv
+
+📝 Tip: When opening in Excel, select all columns and use Format > Column > AutoFit Selection to adjust column widths
+
+==================================================
+Processing hashtag 5/9: #HindusOfBangladesh
+==================================================
+
+🔎 Searching for videos with #HindusOfBangladesh...
+🔄 Fetching more results... Total videos found: 20
+🔄 Fetching more results... Total videos found: 40
+🔄 Fetching more results... Total videos found: 58
+🔄 Fetching more results... Total videos found: 73
+🔄 Fetching more results... Total videos found: 93
+🔄 Fetching more results... Total videos found: 113
+🔄 Fetching more results... Total videos found: 132
+🔄 Fetching more results... Total videos found: 150
+🔄 Fetching more results... Total videos found: 170
+🔄 Fetching more results... Total videos found: 189
+🔄 Fetching more results... Total videos found: 199
+🔄 Fetching more results... Total videos found: 218
+🔄 Fetching more results... Total videos found: 229
+🔄 Fetching more results... Total videos found: 249
+🔄 Fetching more results... Total videos found: 269
+🔄 Fetching more results... Total videos found: 289
+🔄 Fetching more results... Total videos found: 300
+🔄 Fetching more results... Total videos found: 316
+🔄 Fetching more results... Total videos found: 335
+🔄 Fetching more results... Total videos found: 355
+🔄 Fetching more results... Total videos found: 375
+🔄 Fetching more results... Total videos found: 395
+🔄 Fetching more results... Total videos found: 414
+🔄 Fetching more results... Total videos found: 434
+🔄 Fetching more results... Total videos found: 454
+🔄 Fetching more results... Total videos found: 474
+🔄 Fetching more results... Total videos found: 494
+🔄 Fetching more results... Total videos found: 514
+🔄 Fetching more results... Total videos found: 531
+🔄 Fetching more results... Total videos found: 544
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 544
+⚠️ No new results found (attempt 2/3)
+🔄 Fetching more results... Total videos found: 544
+⚠️ No new results found (attempt 3/3)
+🛑 Stopping search after 544 results - no more results available
+📊 Total videos found for #HindusOfBangladesh: 544
+
+✅ Saved 544 videos to C:\Data\CSV_updated\HindusOfBangladesh_videos.csv
+
+📝 Tip: When opening in Excel, select all columns and use Format > Column > AutoFit Selection to adjust column widths
+
+==================================================
+Processing hashtag 6/9: #ChristiansOfBangladesh
+==================================================
+
+🔎 Searching for videos with #ChristiansOfBangladesh...
+🔄 Fetching more results... Total videos found: 20
+🔄 Fetching more results... Total videos found: 40
+🔄 Fetching more results... Total videos found: 60
+🔄 Fetching more results... Total videos found: 80
+🔄 Fetching more results... Total videos found: 100
+🔄 Fetching more results... Total videos found: 117
+🔄 Fetching more results... Total videos found: 134
+🔄 Fetching more results... Total videos found: 152
+🔄 Fetching more results... Total videos found: 157
+🔄 Fetching more results... Total videos found: 177
+🔄 Fetching more results... Total videos found: 197
+🔄 Fetching more results... Total videos found: 214
+🔄 Fetching more results... Total videos found: 234
+🔄 Fetching more results... Total videos found: 253
+🔄 Fetching more results... Total videos found: 273
+🔄 Fetching more results... Total videos found: 292
+🔄 Fetching more results... Total videos found: 312
+🔄 Fetching more results... Total videos found: 332
+🔄 Fetching more results... Total videos found: 351
+🔄 Fetching more results... Total videos found: 371
+🔄 Fetching more results... Total videos found: 390
+🔄 Fetching more results... Total videos found: 407
+🔄 Fetching more results... Total videos found: 427
+🔄 Fetching more results... Total videos found: 446
+🔄 Fetching more results... Total videos found: 466
+🔄 Fetching more results... Total videos found: 486
+🔄 Fetching more results... Total videos found: 506
+🔄 Fetching more results... Total videos found: 526
+🔄 Fetching more results... Total videos found: 528
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 528
+⚠️ No new results found (attempt 2/3)
+🔄 Fetching more results... Total videos found: 528
+⚠️ No new results found (attempt 3/3)
+🛑 Stopping search after 528 results - no more results available
+📊 Total videos found for #ChristiansOfBangladesh: 528
+
+✅ Saved 528 videos to C:\Data\CSV_updated\ChristiansOfBangladesh_videos.csv
+
+📝 Tip: When opening in Excel, select all columns and use Format > Column > AutoFit Selection to adjust column widths
+
+==================================================
+Processing hashtag 7/9: #BuddhistsOfBangladesh
+==================================================
+
+🔎 Searching for videos with #BuddhistsOfBangladesh...
+🔄 Fetching more results... Total videos found: 19
+🔄 Fetching more results... Total videos found: 39
+🔄 Fetching more results... Total videos found: 57
+🔄 Fetching more results... Total videos found: 77
+🔄 Fetching more results... Total videos found: 96
+🔄 Fetching more results... Total videos found: 116
+🔄 Fetching more results... Total videos found: 136
+🔄 Fetching more results... Total videos found: 154
+🔄 Fetching more results... Total videos found: 167
+🔄 Fetching more results... Total videos found: 183
+🔄 Fetching more results... Total videos found: 201
+🔄 Fetching more results... Total videos found: 220
+🔄 Fetching more results... Total videos found: 240
+🔄 Fetching more results... Total videos found: 259
+🔄 Fetching more results... Total videos found: 279
+🔄 Fetching more results... Total videos found: 299
+🔄 Fetching more results... Total videos found: 319
+🔄 Fetching more results... Total videos found: 339
+🔄 Fetching more results... Total videos found: 359
+🔄 Fetching more results... Total videos found: 375
+🔄 Fetching more results... Total videos found: 395
+🔄 Fetching more results... Total videos found: 412
+🔄 Fetching more results... Total videos found: 432
+🔄 Fetching more results... Total videos found: 440
+🔄 Fetching more results... Total videos found: 455
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 455
+🔄 Fetching more results... Total videos found: 468
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 468
+⚠️ No new results found (attempt 2/3)
+🔄 Fetching more results... Total videos found: 468
+⚠️ No new results found (attempt 3/3)
+🛑 Stopping search after 468 results - no more results available
+📊 Total videos found for #BuddhistsOfBangladesh: 468
+
+✅ Saved 468 videos to C:\Data\CSV_updated\BuddhistsOfBangladesh_videos.csv
+
+📝 Tip: When opening in Excel, select all columns and use Format > Column > AutoFit Selection to adjust column widths
+
+==================================================
+Processing hashtag 8/9: #HumanRightsBD
+==================================================
+
+🔎 Searching for videos with #HumanRightsBD...
+🔄 Fetching more results... Total videos found: 19
+🔄 Fetching more results... Total videos found: 39
+🔄 Fetching more results... Total videos found: 59
+🔄 Fetching more results... Total videos found: 72
+🔄 Fetching more results... Total videos found: 91
+🔄 Fetching more results... Total videos found: 110
+🔄 Fetching more results... Total videos found: 129
+🔄 Fetching more results... Total videos found: 149
+🔄 Fetching more results... Total videos found: 168
+🔄 Fetching more results... Total videos found: 188
+🔄 Fetching more results... Total videos found: 205
+🔄 Fetching more results... Total videos found: 225
+🔄 Fetching more results... Total videos found: 245
+🔄 Fetching more results... Total videos found: 265
+🔄 Fetching more results... Total videos found: 284
+🔄 Fetching more results... Total videos found: 304
+🔄 Fetching more results... Total videos found: 323
+🔄 Fetching more results... Total videos found: 342
+🔄 Fetching more results... Total videos found: 360
+🔄 Fetching more results... Total videos found: 378
+🔄 Fetching more results... Total videos found: 397
+🔄 Fetching more results... Total videos found: 417
+🔄 Fetching more results... Total videos found: 437
+🔄 Fetching more results... Total videos found: 457
+🔄 Fetching more results... Total videos found: 475
+🔄 Fetching more results... Total videos found: 495
+🔄 Fetching more results... Total videos found: 514
+🔄 Fetching more results... Total videos found: 534
+🔄 Fetching more results... Total videos found: 554
+🔄 Fetching more results... Total videos found: 557
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 557
+⚠️ No new results found (attempt 2/3)
+🔄 Fetching more results... Total videos found: 557
+⚠️ No new results found (attempt 3/3)
+🛑 Stopping search after 557 results - no more results available
+📊 Total videos found for #HumanRightsBD: 557
+
+✅ Saved 557 videos to C:\Data\CSV_updated\HumanRightsBD_videos.csv
+
+📝 Tip: When opening in Excel, select all columns and use Format > Column > AutoFit Selection to adjust column widths
+
+==================================================
+Processing hashtag 9/9: #IndigenousPeoplesBD
+==================================================
+
+🔎 Searching for videos with #IndigenousPeoplesBD...
+🔄 Fetching more results... Total videos found: 20
+🔄 Fetching more results... Total videos found: 40
+🔄 Fetching more results... Total videos found: 60
+🔄 Fetching more results... Total videos found: 80
+🔄 Fetching more results... Total videos found: 98
+🔄 Fetching more results... Total videos found: 115
+🔄 Fetching more results... Total videos found: 133
+🔄 Fetching more results... Total videos found: 153
+🔄 Fetching more results... Total videos found: 173
+🔄 Fetching more results... Total videos found: 192
+🔄 Fetching more results... Total videos found: 212
+🔄 Fetching more results... Total videos found: 230
+🔄 Fetching more results... Total videos found: 250
+🔄 Fetching more results... Total videos found: 270
+🔄 Fetching more results... Total videos found: 290
+🔄 Fetching more results... Total videos found: 309
+🔄 Fetching more results... Total videos found: 329
+🔄 Fetching more results... Total videos found: 348
+🔄 Fetching more results... Total videos found: 368
+🔄 Fetching more results... Total videos found: 388
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 388
+🔄 Fetching more results... Total videos found: 408
+🔄 Fetching more results... Total videos found: 428
+🔄 Fetching more results... Total videos found: 444
+🔄 Fetching more results... Total videos found: 462
+🔄 Fetching more results... Total videos found: 476
+🔄 Fetching more results... Total videos found: 483
+⚠️ No new results found (attempt 1/3)
+🔄 Fetching more results... Total videos found: 483
+⚠️ No new results found (attempt 2/3)
+🔄 Fetching more results... Total videos found: 483
+⚠️ No new results found (attempt 3/3)
+🛑 Stopping search after 483 results - no more results available
+📊 Total videos found for #IndigenousPeoplesBD: 483
+
+✅ Saved 483 videos to C:\Data\CSV_updated\IndigenousPeoplesBD_videos.csv
+
+📝 Tip: When opening in Excel, select all columns and use Format > Column > AutoFit Selection to adjust column widths
+
+✅ Total videos found across all hashtags: 4697
+Do you want to open any of these links in your browser? (y/n): n
+
+==================================================
+Search complete. Thank you for using YouTube Hashtag Search Tool!
+==================================================

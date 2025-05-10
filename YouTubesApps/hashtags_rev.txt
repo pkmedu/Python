@@ -1,3 +1,7 @@
+Bangladeshminorities,bangladeshhindus,savehindus,MinorityRightsBD,
+HindusOfBangladesh,ChristiansOfBangladesh,BuddhistsOfBangladesh,
+HumanRightsBD,IndigenousPeoplesBD
+
 Bangladeshminorities,bangladeshhindus,savehindus,MinorityRightsBD,BangladeshForAll,
 EqualRightsBD,HindusOfBangladesh,ChristiansOfBangladesh,BuddhistsOfBangladesh,
 HumanRightsBD,IndigenousPeoplesBD,AdivasiRights
