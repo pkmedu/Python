@@ -1,10 +1,14 @@
 @echo off
-setlocal
+setlocal EnableDelayedExpansion
+
+REM — ensure we can always find timeout.exe & powershell.exe —
+set "PATH=%SystemRoot%\System32;%SystemRoot%\System32\WindowsPowerShell\v1.0\;%PATH%"
 
 REM === Configuration ===
 set "REPO_DIR=C:\Users\pmuhuri\DjangoProjects\bdmsite"
 set "LOGFILE=%REPO_DIR%\setup_log.txt"
 set "CONDA_PATH=C:\Users\pmuhuri\AppData\Local\anaconda3"
+set "VERBOSE_MODE=true"
 
 REM === Step 0: Ensure Python is Available ===
 python --version >nul 2>&1
@@ -41,15 +45,46 @@ IF NOT EXIST requirements.txt (
 
 REM === Step 4: Install Dependencies ===
 call :logStep "Installing project dependencies..."
-pip install -r requirements.txt >> "%LOGFILE%" 2>&1
+if "%VERBOSE_MODE%"=="true" (
+    pip install -r requirements.txt
+) else (
+    pip install -r requirements.txt >> "%LOGFILE%" 2>&1
+)
 IF %ERRORLEVEL% NEQ 0 (
     call :logError "Failed to install dependencies."
     exit /b
 )
 
+REM === Step 4b: Install python-dotenv package ===
+call :logStep "Installing python-dotenv package (required by settings.py)..."
+if "%VERBOSE_MODE%"=="true" (
+    pip install python-dotenv
+) else (
+    pip install python-dotenv >> "%LOGFILE%" 2>&1
+)
+IF %ERRORLEVEL% NEQ 0 (
+    call :logError "Failed to install python-dotenv."
+    exit /b
+)
+
+REM === Step 4c: Install additional common dependencies ===
+call :logStep "Installing additional common Django dependencies..."
+if "%VERBOSE_MODE%"=="true" (
+    pip install django-crispy-forms django-debug-toolbar djangorestframework pillow whitenoise
+) else (
+    pip install django-crispy-forms django-debug-toolbar djangorestframework pillow whitenoise >> "%LOGFILE%" 2>&1
+)
+IF %ERRORLEVEL% NEQ 0 (
+    call :logWarning "Some additional dependencies failed to install, but continuing..."
+)
+
 REM === Step 5: Make Migrations (allow exit code 1 - 'no changes') ===
 call :logStep "Making migrations..."
-call :runAndLog "python manage.py makemigrations"
+if "%VERBOSE_MODE%"=="true" (
+    python manage.py makemigrations
+) else (
+    call :runAndLog "python manage.py makemigrations"
+)
 set "makemigrations_exitcode=%ERRORLEVEL%"
 IF %makemigrations_exitcode% GTR 1 (
     call :logError "Unexpected error during makemigrations."
@@ -58,50 +93,16 @@ IF %makemigrations_exitcode% GTR 1 (
 
 REM === Step 6: Apply Migrations ===
 call :logStep "Running Django migrations..."
-python manage.py migrate >> "%LOGFILE%" 2>&1
-IF %ERRORLEVEL% NEQ 0 (
-    call :logError "Django migration failed."
-    exit /b
+if "%VERBOSE_MODE%"=="true" (
+    python manage.py migrate
+    set "migrate_exitcode=%ERRORLEVEL%"
+) else (
+    python manage.py migrate >> "%LOGFILE%" 2>&1
+    set "migrate_exitcode=%ERRORLEVEL%"
 )
-
-REM === Step 7: Collect Static Files ===
-call :logStep "Collecting static files..."
-python manage.py collectstatic --noinput >> "%LOGFILE%" 2>&1
-IF %ERRORLEVEL% NEQ 0 (
-    call :logError "Failed to collect static files."
-    exit /b
-)
-
-REM === Step 8: Start Django Development Server ===
-call :logStep "Starting Django development server in new console..."
-start "Django Server" cmd /k "cd /d %REPO_DIR% && echo Starting Django... && python manage.py runserver"
-
-REM === Step 9: Launch Browser ===
-call :logStep "Launching browser..."
-start http://127.0.0.1:8090/
-
-REM === Step 10: Done ===
-cd /d C:\Python\DjangoScripts
-echo.
-echo [%CD%] Django setup complete. Press any key to exit...
-pause >nul
-goto :eof
-
-REM === Logging Functions ===
-:logStep
-echo [%DATE% %TIME%] [STEP] %~1
-echo [%DATE% %TIME%] [STEP] %~1 >> "%LOGFILE%"
-goto :eof
-
-:logError
-echo [%DATE% %TIME%] [ERROR] %~1
-echo [%DATE% %TIME%] [ERROR] %~1 >> "%LOGFILE%"
-REM Optional: Uncomment to auto-open log file
-REM start notepad "%LOGFILE%"
-goto :eof
-
-:runAndLog
-echo [%DATE% %TIME%] [RUN] %~1 >> "%LOGFILE%"
-%~1 >> "%LOGFILE%" 2>&1
-set "errcode=%ERRORLEVEL%"
-exit /b %errcode%
+IF %migrate_exitcode% NEQ 0 (
+    call :logError "Django migration failed with exit code %migrate_exitcode%."
+    
+    REM === Enhanced Error Reporting for Migrations ===
+    echo.
+    echo ====

@@ -1,0 +1,10 @@
+Project structure created successfully!
+Change to the project directory: cd C:\Users\pmuhuri\DjangoProjects\bdmsite
+Run the following commands to set up your database:
+python manage.py makemigrations bdm_videos
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver 8090
+
+Access your site at: http://127.0.0.1:8090/
+Admin interface at: http://127.0.0.1:8090/admin/
